@@ -1,0 +1,292 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* ********BASIC CSS RESET STARTS HERE ******** */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ********BASIC CSS RESET ENDS HERE ******** */
+
+/* content css classes starts here */
+
+.title{
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 12px;
+}
+
+.content{
+  font-family: 'Lateef', serif;
+  font-size: 20px;
+}
+
+.heading{
+  font-family: 'Play', sans-serif;
+  font-size: 36px;
+}
+
+.bigger{
+  font-family: 'Play', sans-serif;
+  font-size: 44px;
+}
+
+.center{
+    text-align: center;
+  }
+
+/* content css classes ends here */
+
+/* This keeps all elements from the edge */
+header, footer, main{
+  padding: 20px 100px;
+}
+
+section{
+  padding: 100px 0;
+}
+
+
+/* Header styles starts here */
+.profile-img{
+  box-sizing: border-box;
+  width: 289.31px;
+  height: 373.71px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 250px;
+  padding: 20px 100px;
+}
+
+header div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.links{
+  gap: 45px;
+}
+
+header div img{
+  width: 30px;
+  height: 30px;
+}
+
+/* Header styles starts here */
+
+/* MAIN styles starts here */
+
+
+/* ABOUT section starts here */
+#About{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 170px;
+}
+
+.about-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+}
+
+
+
+
+
+/* ABOUT section ends here */
+
+/* Serviecs section starts here */
+
+#Services{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 100px;
+}
+
+.services-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 424px;
+}
+
+
+/* Services section ends here */
+
+/* Project section starts here */
+
+#Projects{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 100px;
+}
+
+.project-left{
+  width: 636.54px;
+  height: 300px;
+}
+
+
+.project-right{
+  width: 291px;
+  height: 300px;
+}
+
+.project-content{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.project-text{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* Project section starts here */
+
+/* Skills section starts here */
+
+.skills-top{
+  padding-bottom: 70px;
+}
+
+#Skills{
+  line-height: 20px;
+}
+
+.skills-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-left{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 20px;
+}
+
+.skills-right{
+  width: 40%;
+}
+
+.skills-headings{
+  font-family: 'Play', sans-serif;
+  font-size: 18px;
+  padding-left: 10px
+}
+
+  .skills-left-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.skills-right{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.skills-right > div{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  text-transform: uppercase;
+}
+  
+
+/* Skills section ends here */
+
+/* Contact section starts here */
+
+#Contact{
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.contact-left{
+   display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-right{
+   display: flex;
+  flex-direction: column;
+  gap: 40px;
+  line-height: 30px
+}
+
+/* Contact section starts here */
+
+/* MAIN styles starts here */
+
+
+
+footer{
+  text-align: center;
+}
