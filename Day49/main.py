@@ -1,6 +1,6 @@
-EMAIL = "gabzthebahdguy@gmail.com"
-PASSWORD = "gabz666999"
-PHONE_NUMBER = "07042011076"
+EMAIL = "example@gmail.com"
+PASSWORD = "******"
+PHONE_NUMBER = "******"
 JOB_ROLE = "Python Developer" # Input The Job role you like to search for
 
 from selenium import webdriver
